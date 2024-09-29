@@ -101,8 +101,8 @@ body {
 @media (max-width: 400px) {
     .mybigbtn {
         padding: 3px; /* Further reduce padding */
-        height: 30px; /* Further reduce height */
-        font-size: 0.8em; /* Smaller font size */
+        height: 20px; /* Further reduce height */
+        font-size: 0.6em; /* Smaller font size */
     }
 }
 
