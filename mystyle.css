@@ -1,0 +1,17 @@
+.btn.btn-outline-success {
+	--bs-btn-color: #ffffff; /* Text color */
+	--bs-btn-border-color: #001f3f; /* Border color */
+	--bs-btn-hover-color: #ffffff; /* Hover text color */
+	--bs-btn-hover-bg: #001f3f; /* Hover background color */
+	--bs-btn-hover-border-color: #001f3f; /* Hover border color */
+	--bs-btn-focus-shadow-rgb: 0, 31, 63; /* Focus shadow color */
+	--bs-btn-active-color: #ffffff; /* Active text color */
+	--bs-btn-active-bg: #001f3f; /* Active background color */
+	--bs-btn-active-border-color: #001f3f; /* Active border color */
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); /* Active shadow */
+	--bs-btn-disabled-color: #001f3f; /* Disabled text color */
+	--bs-btn-disabled-bg: transparent; /* Disabled background */
+	--bs-btn-disabled-border-color: #001f3f; /* Disabled border color */
+	--bs-gradient: none; /* Gradient */
+	color: #001f3f;
+}
