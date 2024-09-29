@@ -98,6 +98,14 @@ body {
     }
 }
 
+@media (max-width: 400px) {
+    .mybigbtn {
+        padding: 3px; /* Further reduce padding */
+        height: 30px; /* Further reduce height */
+        font-size: 0.8em; /* Smaller font size */
+    }
+}
+
 .mybigbtn:hover {
   padding:10px;
   width: auto;
