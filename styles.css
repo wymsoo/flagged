@@ -35,6 +35,31 @@ body {
 
 }
 
+.linkbox {
+  position: relative;
+  padding: 15px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  width: 100%;
+  background-color: white;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.linkbox:hover {
+  padding:30px 15px 30px 15px;
+
+  background-color: #1b5a4c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+
+
 .headertext {
   font-size: 3em;
   color: black;
@@ -77,7 +102,7 @@ body {
   transition: 0.3s;
 }
 
-.mybigbtn {
+.mynavbtn {
   padding:10px;
   width: auto;
   height: 50px;
@@ -91,7 +116,7 @@ body {
 
 
 @media (max-width: 600px) {
-    .mybigbtn {
+    .mynavbtn {
         padding: 5px; /* Reduce padding */
         height: 40px; /* Reduce height */
         font-size: 1em; /* Smaller font size */
@@ -99,11 +124,35 @@ body {
 }
 
 @media (max-width: 400px) {
-    .mybigbtn {
+    .mynavbtn {
         padding: 3px; /* Further reduce padding */
         height: 20px; /* Further reduce height */
         font-size: 0.6em; /* Smaller font size */
     }
+}
+
+.mynavbtn:hover {
+  padding:10px;
+  width: auto;
+  height: 55px;
+  background-color: #4e239a;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(50,27,90,0.5);
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.mybigbtn {
+  padding:10px;
+  width: auto;
+  height: 50px;
+  background-color: #321b5a ;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(50,27,90,0.5);
+  border-radius: 20px;
+  font-size: 1.5em
 }
 
 .mybigbtn:hover {
@@ -117,6 +166,7 @@ body {
   border-radius: 20px;
   transition: 0.3s;
 }
+
 
 
 /*container boxes*/
@@ -133,10 +183,22 @@ body {
 
 }
 
+.containerbox2{
+  position: relative;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  color: black;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 10px;
+
+}
+
 .contentbox{
   position: relative;
   padding: 15px;
-  margin: 2px;
+  margin-bottom: 2px;
   border-radius: 5px;
   text-align: center;
   color: black;
