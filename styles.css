@@ -28,6 +28,31 @@ body {
   color: white;
 }
 
+.navbarcontainer {
+  position: relative;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+  background-color:#1b5a4c;
+  margin-bottom: 10px;
+
+}
+
+.navcolor {
+  background-color: #1b5a4c;
+}
+
+.navtext {
+  color: pink;
+}
+
+.companyname {
+  color: pink !important; 
+  font-weight: bold;
+  font-size: 3em !important;
+}
+
 .link {
   text-decoration: none;
   color: inherit;
@@ -179,7 +204,7 @@ body {
   color: black;
   width: 100%;
   background-color: transparent;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 
 }
 
