@@ -28,15 +28,8 @@ body {
   color: white;
 }
 
-.navbarcontainer {
-  position: relative;
-  padding: 10px;
-  margin: 0px;
-  text-align: center;
-  width: 100%;
-  background-color: white;
-  margin-bottom: 10px;
-
+.commenttext {
+  font-size: 0.8em
 }
 
 .navcolor {
@@ -102,6 +95,7 @@ body {
   text-align: left;
 }
 
+/*buttons*/
 
 
 .mybtn {
@@ -219,6 +213,91 @@ body {
 
 /*container boxes*/
 
+/*stories modals*/
+
+.forum-student-name {
+  padding-bottom:5px;
+}
+
+.textbox2 {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  color: black;
+  width: 100%;
+  background-color: white;
+
+}
+
+.comment-textbox {
+
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  color: black;
+  width: 100%;
+  background-color: lightblue;
+
+
+}
+
+.storybar {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: black;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  margin-bottom: 10px;
+  border-left: 1px solid grey;
+}
+
+.commentbox {
+  position: relative;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: -12px;
+  text-align: center;
+  color: black;
+  width: 115%;
+  background-color: lightblue;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow:hidden;
+
+}
+
+.replycomment {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  color: black;
+  width: 100%;
+  background-color: lightblue;
+
+}
+
+
+/*navbar*/
+
+.navbarcontainer {
+  position: relative;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 10px;
+
+}
+
+/*general*/
+
 .containerbox{
   position: relative;
   padding: 10px;
@@ -266,55 +345,6 @@ body {
   background-color: white;
 }
 
-.textbox2 {
-  position: relative;
-  padding: 0px;
-  margin: 0px;
-  text-align: left;
-  color: black;
-  width: 100%;
-  background-color: white;
-
-}
-
-.storybar {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  color: black;
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-  margin-bottom: 10px;
-  border-left: 1px solid grey;
-}
-
-.commentbox {
-  position: relative;
-  padding: 10px;
-  margin-right: 10px;
-  margin-left: -12px;
-  text-align: center;
-  color: black;
-  width: 115%;
-  background-color: lightblue;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  overflow:hidden;
-
-}
-
-.replycomment {
-  position: relative;
-  padding: 0px;
-  margin: 0px;
-  text-align: left;
-  color: black;
-  width: 100%;
-  background-color: lightblue;
-
-}
 
 
 
